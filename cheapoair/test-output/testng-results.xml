@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Cheapoair Test Suite" duration-ms="103238" started-at="2017-09-10T16:13:56Z" finished-at="2017-09-10T16:15:40Z">
+    <groups>
+    </groups>
+    <test name="HomePageTest" duration-ms="103238" started-at="2017-09-10T16:13:56Z" finished-at="2017-09-10T16:15:40Z">
+      <class name="com.cheapoair.tests.CheapoairHomePageTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.cheapoair.tests.CheapoairHomePageTest@30ee2816]" name="setup" is-config="true" duration-ms="90937" started-at="2017-09-10T11:13:56Z" finished-at="2017-09-10T11:15:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.cheapoair.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="homePageTest()[pri:0, instance:com.cheapoair.tests.CheapoairHomePageTest@30ee2816]" name="homePageTest" duration-ms="11136" started-at="2017-09-10T11:15:27Z" finished-at="2017-09-10T11:15:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.cheapoair.tests.CheapoairHomePageTest@30ee2816]" name="tearDown" is-config="true" duration-ms="1112" started-at="2017-09-10T11:15:39Z" finished-at="2017-09-10T11:15:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cheapoair.tests.CheapoairHomePageTest -->
+    </test> <!-- HomePageTest -->
+  </suite> <!-- Cheapoair Test Suite -->
+</testng-results>

@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Cheapoair Test Suite" verbose="2" parallel="tests"
+	thread-count="2">
+
+	<parameter name="browser" value="Chrome"></parameter>
+	<parameter name="url" value="https://www.cheapoair.com/"></parameter>
+
+	<test name="HomePageTest">
+		<classes>
+			<class name="com.cheapoair.tests.CheapoairHomePageTest">
+
+			</class>
+		</classes>
+	</test>
+</suite>
